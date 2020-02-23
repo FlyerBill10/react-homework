@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Users\flyer\.codemix-store\nodejs\10.16.3\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-bootstrap
+
+PATH: 
+  C:\Users\flyer\.codemix-store\npm\6.9.0\bin;C:\GitHub\react-homework\node_modules\angular-ide\bin;C:\GitHub\react-homework\node_modules\.bin;C:\Users\flyer\.codemix-store\nodejs\10.16.3;C:\Users\flyer\bin;C:\Users\flyer\.codemix-store\git-bash\mingw64\bin;C:\Users\flyer\.codemix-store\git-bash\usr\local\bin;C:\Users\flyer\.codemix-store\git-bash\usr\bin;C:\Users\flyer\.codemix-store\git-bash\usr\bin;C:\Users\flyer\.codemix-store\git-bash\mingw64\bin;C:\Users\flyer\.codemix-store\git-bash\usr\bin;C:\Users\flyer\bin;C:\Program Files\Java\jre1.8.0_191\bin\server;C:\Program Files\Java\jre1.8.0_191\bin;C:\Program Files\Java\jre1.8.0_191\lib\amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Yarn\bin;C:\Users\flyer\AppData\Local\Microsoft\WindowsApps;C:\Users\flyer\AppData\Local\GitHubDesktop\bin;C:\Users\flyer\AppData\Local\Yarn\bin;C:\WINDOWS\system32;C:\Users\flyer\.codemix-store\git-bash\usr\bin\vendor_perl;C:\Users\flyer\.codemix-store\git-bash\usr\bin\core_perl
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\GitHub\react-homework\node_modules\node-sass\vendor\win32-x64-64\binding.node'
+
+npm manifest: 
+  {
+    "name": "react-hello-world",
+    "version": "1.0.0",
+    "description": "React Hello World",
+    "main": "index.js",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "author": "CodeMix",
+    "license": "ISC",
+    "dependencies": {
+       "bootstrap": "^3.3.7",
+      "node-sass": "^4.13.1",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0",
+      "react-scripts": "^2.1.5"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
